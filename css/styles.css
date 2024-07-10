@@ -139,14 +139,13 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-img.jpg);
+    url(../images/hero.jpg);
   background-color: #2e2f42;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   max-width: 1440px;
   margin: 0 auto;
-
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -355,8 +354,10 @@ img {
   transform: translateY(0);
 }
 .portfolio-container-list-item-text {
-  text-align: center;
+  text-align: left;
   padding: 32px 16px;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
 }
 .portfolio-container-name {
